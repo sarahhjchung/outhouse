@@ -1,0 +1,82 @@
+.loginHeader {
+  text-align: center;
+  width: 40%;
+  margin: 0 0 20px 0;
+}
+
+.loginForm {
+  width: 40%;
+}
+
+.loginInput {
+  margin: 20px 0px;
+}
+
+.loginBox {
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.usernameInput,
+.passwordInput {
+  all: unset;
+  color: #22223b;
+  height: 100%;
+  padding: 6px 10px;
+  border: 1px solid #22223b;
+  margin-bottom: 20px;
+  border-radius: 1em;
+  display: inline-block;
+  margin-left: 20px;
+  width: 75%;
+}
+
+.passwordInput {
+  margin-left: 24px;
+}
+
+.loginLabel {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.loginLogo {
+  font-family: Rubik;
+  font-weight: 600;
+  color: #4a4e69;
+}
+
+#logoLoginImg {
+  width: 50px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+  height: 100%;
+}
+
+.loginButton {
+  margin: 20px 0px;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-wrapper h1 {
+  margin: 10px 0 10px 0;
+}
+
+.signupButton {
+  margin: 20px;
+  text-decoration: none;
+  color: #4a4e69;
+}
+
+.signupButton:hover {
+  text-decoration: underline;
+}

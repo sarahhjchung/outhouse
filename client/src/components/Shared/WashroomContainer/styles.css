@@ -1,0 +1,104 @@
+.toilet {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.highlightWashroom {
+  border: 5px solid #e8cdc7;
+  transition: 0.2s ease;
+}
+
+.washroomContainer {
+  background-color: #c9ada7;
+  max-width: 100%;
+  padding: 10px 30px;
+  line-height: 25%;
+  border-radius: 1em;
+  overflow: hidden;
+  color: #22223b;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.line {
+  color: #f2e9e4;
+  border-top-style: none;
+}
+
+.reviewContainer {
+  margin: 25px 0px;
+}
+
+.review {
+  line-height: normal;
+}
+
+.buttonsRow {
+  margin: 20px 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 10px;
+}
+
+.washroomWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.washroomInfo {
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  line-height: 150%;
+}
+
+.num {
+  color: #4a4e69;
+}
+
+.seeAllReviews {
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+  transition: 0.1s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.seeAllReviews:hover {
+  border-bottom: 2px solid white;
+}
+
+.ratingsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.ratingsMap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 10px;
+}

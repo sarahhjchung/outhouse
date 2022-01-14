@@ -1,0 +1,45 @@
+.header {
+  position: absolute;
+  top: 0;
+}
+
+.mapPage {
+  width: 100%;
+  margin: 0px 20px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  overflow: hidden;
+  position: fixed;
+  color: #22223b;
+}
+
+.lessTopMargin {
+  margin-top: 0;
+}
+
+.reviewsBar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  background-color: #f2e9e488;
+}
+
+.mapView {
+  overflow: hidden;
+  height: full;
+}
+
+.washroomReviews {
+  overflow: auto;
+  margin-top: 10px;
+  height: 90vh;
+}
+
+.placeHolder {
+  height: 20vh;
+}
+
+.washroomContainer {
+  margin-bottom: 10px;
+}

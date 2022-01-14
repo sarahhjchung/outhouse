@@ -1,0 +1,27 @@
+.user-container {
+    max-width: 100%;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: #4A4E69;
+    color: white;
+    border-radius: 1em;
+    line-height: 25%;
+    margin-bottom: 10px;
+}
+
+.user-container-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-container-left-side {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.user-icon {
+    margin-right: 5px;
+}

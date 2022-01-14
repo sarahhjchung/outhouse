@@ -1,0 +1,76 @@
+.wrapper {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.reportFormTitle {
+  text-align: center;
+  color: #f2e9e4;
+  margin-bottom: 20px;
+}
+
+.reportFormContainer {
+  width: 40%;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #9a8c98;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.report-form-section {
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background: #4A4E69;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.whole-row {
+    width: 100%;
+}
+
+.reportTitleInput {
+  all: unset;
+  color: #f2e9e4;
+  height: 100%;
+  padding: 6px 1px;
+  border: 2px solid #f2e9e4;
+  margin: 20px 0px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.comments {
+  color: #f2e9e4;
+  font-weight: 500;
+  width: 95%;
+}
+
+.reportContentInput {
+  all: unset;
+  color: #f2e9e4;
+  height: 100%;
+  padding: 6px 1px;
+  border: 2px solid #f2e9e4;
+  margin: 20px 0px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.report-modal {
+  background-color: #f2e9e4;
+  border-radius: 25px;
+  width: 40%;
+}
+
+.new-report-message{
+  color: #22223B;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.latestUpdates {
+  max-width: 880px;
+  margin: auto;
+}
+
+.reviewContent {
+  all: unset;
+  color: #000;
+  height: 100%;
+  padding: 6px 10px;
+  border: 2px solid #C9ADA7;
+  margin-bottom: 10px;
+  border-radius: 1em;
+  width: 40%;
+  display: inline-block;
+  margin-left: 4px;
+}
